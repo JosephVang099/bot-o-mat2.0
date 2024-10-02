@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bot-o-mat2.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Robot Chores</h1>
+        <!-- Robot Name -->
+        <div>
+            <label for="robotName">Enter Robot Name</label>
+            <input type="type" id="robotName" placeholder="Robot Name">
+        </div>
+
+        <!-- Robot Type -->
+        <div>
+            <label for="robotType">Robot Type</label>
+            <select id="robotType">
+                <option value="Unipedal">Unipedal</option>
+                <option value="Bipedal">Bipedal</option>
+                <option value="Quadrupedal">Quadrupedal</option>
+                <option value="Arachnid">Arachnid</option>
+                <option value="Radial">Radial</option>
+                <option value="Radial">Radial</option>
+            </select>
+        </div>
+
+        <!-- A Button To Create Each Robot -->
+         <div id="createRobot">
+            <button id="createRobot">Create Your Robot</button>
+         </div>
+
+         <!-- The List of Chores -->
+          <div id="choreList">
+            <h3 for="choreLabel">Chores :</h3>
+            <ul id="choreBulletPoints">
+                <li>do the dishes</li>
+                <li>the house</li> 
+                <li>do the laundry</li>
+                <li>take out the recycling</li>
+                <li>make a sammich</li>
+                <li>mow the lawn</li>
+                <li>rake the leaves</li>
+                <li>give the dog a bath</li>
+                <li>bake some cookies</li>
+                <li>wash the car</li>
+            </ul>
+          </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

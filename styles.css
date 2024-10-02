@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+
+input, select {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 80%;
+}
+
+button {
+    padding: 10px;
+    background-color: #f12222;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #22f17f;
+}
+
+#choreList {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
